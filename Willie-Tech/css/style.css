@@ -1,0 +1,492 @@
+/* =================================
+Default theme
+====================================
+Raleway and Open Sans
+======================================
+Colors:
+Grey:           #212226
+White Smoke:    #f4f4f4
+White:          #fff
+Black:          #000
+*/
+ /*Html, Body*/
+ html, body {
+    height: 100%;
+     }
+     body {
+      color: #212226;
+   }
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+      font-family: "Open Sans", sans-serif;
+   }
+   p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 24px;
+   }
+   section{
+      background: #fff;
+      overflow: hidden;
+   }
+
+/*======================================
+   Preloader
+======================================*/
+#preloader {
+background-color:white;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 9999;
+}
+#status {
+background-image: url("../image/preloader/preloader.gif");
+background-repeat: no-repeat;
+width:  70px;
+height: 70px;
+position: absolute;
+left: 50%;
+top: 50%;
+margin-top: -35px;
+margin-left: -35px;
+}
+
+
+.btn:hover
+{
+    background-color: blue;
+   
+}
+
+ /*======================================
+            HOME
+======================================*/
+
+#home{
+    background: none;
+    height: 100%;
+ }
+
+ #home-overlay {
+   background-image: url("../image/web-design-background.png");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+ }
+#home-content{
+   width: 100%;
+   height: 100%;
+   display: table;
+}
+#home-content-inner {
+   display: table-cell;
+   vertical-align: middle;
+}
+#home-heading h1{
+color:#212226;
+font-size: 65px;
+font-weight: 100;
+margin: 0;
+display: inline-block;
+}
+#home-heading h1 span {
+   color: #fff;
+   font-weight: 500;
+}
+#home-text p {
+   color: #000;
+   font-size: 17px;
+   font-weight: 100;
+   margin: 8px 0 30px 0;
+}
+#home-btn {
+   margin-bottom: 40px;
+}
+#home-btn a {
+   font-family: "Open Sans", sans-serif;
+   background-color: #212226;
+   color: white;
+   margin: 30px;
+   border: none;
+   text-transform: uppercase;
+   font-size: 15px;
+   font-weight: 400;
+   display: inline-block;
+}
+/* Arrow Down*/
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: #fff;
+    font-size: 34px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+ 
+ }
+ #arrow-down:hover,
+ #arrow-down:focus{
+    color: #212226;
+ }
+/*======================================
+            ABOUT
+======================================*/
+#about-us {
+margin-top: 80px;
+margin-bottom: 60px;
+font-family: "Open Sans", sans-serif;
+padding-left: 60px;
+background: #fff;
+}
+#about-us .vertical-heading h5{
+    font-size: 40px;
+    margin-bottom: 130px;
+}
+.vertical-heading h5 strong{
+    font-size: 50px;
+    color: blue;
+}
+.about-left p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #212226;
+   display: inline-block;
+   
+}
+.about-left span{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.about-right {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.about-right a img{
+    height: 400px;
+   width: 400px;
+    
+}
+/*======================================
+            GOODS
+======================================*/
+#goods {
+    padding-top: 60px;
+    background: #f4f4f4;
+}
+.vertical-heading h1 {
+    padding-bottom: 40px;
+    margin-left: -75px;
+}
+.vertical-heading h1 strong{
+   color: blue;
+}
+
+#isotope-filters {
+    color: lightskyblue;
+    padding-bottom: 10px;
+    margin-left: -75px;
+}
+#isotope-filters button {
+   text-transform: uppercase;
+   color: aqua;
+   background-color: #fff;
+   
+   text-align: center;
+   
+}
+#isotope-container {
+    background:#f4f4f4;
+    padding-bottom: 25px;
+}
+.col-md-3 {
+   padding-bottom: 25px;
+   padding-right: 10px;
+}
+.wrapperr {
+   padding: 10px 10px 10px 10px;
+   background: lightblue;
+}
+
+.wrapperr h6 {
+   font-size: 20px;
+   font-family: "Open Sans", sans-serif;
+}
+.wrapperr p {
+   font-size: 15px;
+   font-family: "Open Sans", sans-serif;
+}
+
+/*======================================
+            PROFILE
+======================================*/
+#profile {
+   padding-top: 50px;
+   padding-bottom: 80px;
+}
+.profile-pic {
+   padding: 20px 0 20px 0;
+}
+#profile-left p {
+   font-size: 15px;
+}
+#profile-left h1 {
+   padding-bottom: 30px;
+   font-size: 40px;
+}
+#profile-left h1 strong {
+color: blue;
+}
+.profile-left p{
+   font-size: 18px;
+   line-height: 1.5;
+   padding-top: 30px;
+}
+.profile-pic img {
+   margin-left: 150px;
+   width: 250px;
+   border-radius: 200px;
+}
+.profile-pic h4,
+.profile-pic h5{
+   padding-left: 5%;
+   margin-top: 10px;
+}
+/*======================================
+            Contact
+======================================*/
+#contact {
+   background: #f4f4f4;
+   padding: 60px 10px;
+}
+ul {
+   line-height: 30px;
+   list-style: none;
+   font-size: 15px;
+   padding-right: 10px;
+}
+ul li i{
+   width: 30px;
+}
+#contact-right {
+   background: #fff;
+   padding: 25px 30px;
+   -webkit-box-shadow: 0 0 10px 0 rgba(1,1,1, 0.1);
+   box-shadow: 0 0 10px 0 rgba(1,1,1, 0.1);
+   border-radius: 4px;
+   }
+   #contact-right h4{
+      font-size: 24px;
+   }
+   #contact-right p{
+      margin-bottom: 25px;
+   }
+   #contact-right form .form-control {
+      font-family: "Open Sans", sans-serif;
+      padding: 10px 15px;
+      font-size: 12px;
+      line-height: 24px;
+   }
+   #contact-right form textarea.form-control {
+      min-height: 164px;
+   }
+
+/*======================================
+            Footer
+======================================*/
+footer {
+   background: #000;
+   color: #fff;
+   font-size: 13px;
+}
+footer strong {
+   color: aqua;
+}
+footer p {
+   font-size: 13px;
+   line-height: 20px;
+}
+footer #back-to-top {
+   font-size: 22px;
+   
+}
+.btn-back-to-top {
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   padding: 3px 15px;
+   border-radius: 4px;
+   font-size: 22px;
+   display: none;
+}
+/*======================================
+           Navigation
+======================================*/ 
+.navbar {
+   padding: 35px 0 40px 0;
+   transition: all 300ms linear;
+   -webkit-transition: all 300ms linear;
+}
+.site-nav-wrapper {
+   padding: 0 85px;
+} 
+.navbar-brand {
+   padding: 13px 15px;
+}
+.navbar-brand h2{
+   margin: -10px;
+   color: #000;
+}
+.navbar-header .navbar-brand > img{
+  padding-top: 40px;
+}
+ul.navbar-nav > li > a{
+   font-family: "Open sans", sans-serif;
+   color: #000;
+   font-size: 15px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+ul.navbar-nav a h2{
+   color: #fff;
+}
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus{
+background: none;
+color: blue;
+}
+/*White Navigation*/
+.white-nav-top {
+   background: #fff;
+   padding: 10px 0;
+   -webkit-box-shadow: 0 8px 6px -9px #999;
+   box-shadow: 0 8px 6px -9px #999;
+   z-index: 2;
+}
+.white-ul.nav.navbar-nav > li > a{
+   color: blue;
+}
+.white-nav-top ul.navbar-nav > li > a:hover,
+.white-nav-top ul.navbar-nav > li > a:focus {
+   color: blue;
+}
+/*Scroll Spy*/
+.white-nav-top ul.navbar-nav > li.active > a{
+   color: aqua;
+}
+/*======================================
+           Links
+======================================*/
+#add-link {
+   padding: 40px 30px;
+   color: #fff;
+   background-color: #000;
+} 
+#add-link .col-md-4 h3{
+   font-size: 30px;
+   padding-bottom: 20px;
+   font-weight: 500;
+   font-family: "Open sans", sans-serif;
+}
+#add-link .col-md-4 li{
+   font-size: 25px;
+}
+#add-link .col-md-4 li a{
+   color: lightskyblue;
+}
+.supported {
+   letter-spacing: 6px;
+   font-size: 15px;
+   color: aqua;
+}
+.supported  h6 {
+   color: #fff;
+   font-size: 20px;
+   letter-spacing: 1px;
+}
+/*======================================
+           Animation
+======================================*/
+#home-heading-1 {
+   animation-duration: 1.5s;
+   animation-delay: 2s;
+}
+#home-heading-2 {
+   animation-duration: 1.5s;
+   animation-delay: 2s;
+}
+#home-text {
+   animation-duration: 1.5s;
+   animation-delay: 1.5s;
+}
+#arrow-down {
+   animation-duration: 2.5s;
+   animation-delay: 1.5s;
+}
+.about {
+   animation-duration: 2s;
+   animation-delay: 2.5s;
+}
+.about-left {
+   animation-duration: 2s;
+   animation-delay: 2.5s;
+}
+.about-right {
+   animation-duration: 2s;
+   animation-delay: 2.5s;
+}
+#goods .vertical-heading {
+   animation-duration: 3s;
+   animation-delay: 3s;
+}
+#isotope-filters {
+   animation-duration: 3s;
+   animation-delay: 3s;
+}
+#isotope-container {
+   animation-duration: 2s;
+   animation-delay: 1.5s;
+}
+#good-wrapper {
+   animation-duration: 3s;
+   animation-delay: 3s;
+}
+#profile-left {
+   animation-duration: 3s;
+   animation-delay: 3.5s;
+}
+.profile-pic{
+   animation-duration: 3s;
+   animation-delay: 3.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

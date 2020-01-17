@@ -1,0 +1,272 @@
+/*======================================
+           Mobile Menu
+======================================*/
+.navbar-header {
+    position: relative;
+ }
+ #mobile-nav-open-btn {
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+   right: 0;
+   top: 6px;
+ 
+   /*hide*/
+   display: none;
+ }
+ #mobile-nav {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, .9);
+    overflow-y: hidden;
+ }
+ #mobile-nav-close-btn {
+    font-family: "Open sans", sans-serif;
+    font-size: 70px;
+    color: aqua;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    top: -9px;
+    right: 13px;
+    transition: .3s;
+    -webkit-transition: .3s;
+ }
+ .mobile-nav-content{
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    top: 10%;
+ }
+ #mobile-nav ul li {
+    margin-bottom: 20px;
+ }
+ #mobile-nav a {
+    font-family: "Open sans", sans-serif;
+    font-size: 18px;
+    color: #212226;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline;
+    transition: .3s;
+    -webkit-transition: .3s;
+ }
+ #mobile-nav a:hover,
+ #mobile-nav a:focus,
+ #mobile-nav-close-btn:hover,
+ #mobile-nav-close-btn:focus {
+    color: aqua;
+ }
+/*Scroll Spy*/
+.white-nav-top #mobile-nav ul.nav-nav > li.active > a{
+    color: aqua;
+ }
+
+/*=====================================================
+           Bootstrap 3 Media Queries
+=======================================================*/
+
+/* Large Devices (Desktops & Laptops) */
+@media (min-width: 1200px) and  (max-width: 1299px)  {
+    .site-nav-wrapper {
+        padding: 0 35px;
+    }
+   
+}
+/* Medium Devices (Medium Desktops & Landscape Tablets) */
+@media (min-width: 992px) and  (max-width: 1199px) {
+
+    .site-nav-wrapper {
+        padding: 0 20px;
+    }
+   
+}
+/* Small Devices (Small Desktops & Portrait Tablets) */
+@media (min-width: 768px) and  (max-width: 991px) {
+    .site-nav-wrapper {
+        padding: 0 20px;
+    }
+    #isotope-container .wrapperr h6{
+        font-size: 13px;
+        text-align: center;
+        padding-left: 45px;
+    }
+
+    #isotope-container .wrapperr p{
+        font-size: 10px;
+    }
+    #isotope-container .profile-pic h5, h6{
+        padding-right: 50px;
+        font-size: 12px;
+    }
+
+    .profile-pic {
+        padding: 20px 0 20px 0;
+     }
+     #profile-left p {
+        font-size: 12px;
+     }
+     #profile-left h1 {
+        padding-bottom: 30px;
+        font-size: 40px;
+     }
+     #profile-left h1 strong {
+     color: blue;
+     }
+     .profile-left p{
+        font-size: 12px;
+        line-height: 2;
+     }
+     .profile-pic img {
+        margin-left: 100px;
+        width: 300px;
+        border-radius: 200px;
+     }
+     .profile-pic h4,
+     .profile-pic h5
+     {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: -100%;
+        text-align: center;
+    }
+    
+}
+/* Extra small Devices (Portrait Tablets & Landscape phone) */
+@media (max-width: 767px) {
+    
+    /*Navigation*/
+    .navbar{
+        padding: 20px 0;
+    }
+    .site-nav-wrapper,
+     .white-nav-top{
+        padding: 0;
+    }
+    /*Show mobile button*/
+    #mobile-nav-open-btn {
+        display: block;
+    }
+
+    .profile-pic h5 {
+        margin-left: -30%;
+    }
+    .profile-pic h4 {
+        margin-left: -30%;
+    }
+
+}
+/* Extra small Devices (Portrait Tablets & Landscape phone) */
+@media (max-width: 700px) {
+    .profile-pic h5 {
+        margin-left: -20%;
+    }
+    .profile-pic h4 {
+        margin-left: -20%;
+    }
+
+}
+/* Extra small Devices (Portrait Tablets & Landscape phone) */
+@media (max-width: 650px) {
+    .profile-pic h5 {
+        margin-left: -10%;
+    }
+    .profile-pic h4 {
+        margin-left: -10%;
+    }
+
+}
+/* Extra small Devices (Portrait Tablets & Landscape phone) */
+@media (max-width: 550px) {
+    .profile-pic h5 {
+        margin-left: 0%;
+    }
+    .profile-pic h4 {
+        margin-left: 0%;
+    }
+
+}
+/* Extra small Devices (Portrait Tablets & Landscape phone) */
+@media (max-width: 500px) {
+    .profile-pic h5 {
+        margin-left: 10%;
+    }
+    .profile-pic h4 {
+        margin-left: 10%;
+    }
+    .vertical-heading {
+        padding-left: 15px;
+    }
+    .profile-pic img {
+       margin-left: 10px;
+    }
+
+}
+/* Extra small Devices (Portrait Tablets & Landscape phone) */
+@media (max-width: 450px) {
+   
+    .profile-pic img {
+       margin-left: 100px;
+    }
+
+}
+/* Extra small Devices (Portrait Tablets & Landscape phone) */
+@media (max-width: 400px) and  (max-width: 449px) {
+   
+    .profile-pic img {
+       margin-left: 70px;
+    }
+
+   .left-side ul li {
+       font-size: 10px;
+   }
+   #isotope-container .wrapperr p {
+       font-size: 8px;
+   }
+   .about-left p {
+       font-size: 10px;
+       padding-right: 25px;
+   }
+   .about-left p strong{
+    font-size: 10px;
+   }
+   .vertical-heading .about h5{
+    padding-right: 25px;
+    
+   }
+   #profile-left {
+    padding-right: 25px;
+    
+   }
+   .profile-left p{
+    font-size: 13px;
+   }
+}
+/* Extra small Devices (Portrait Tablets & Landscape phone) */
+@media (min-width: 200px) and  (max-width: 350px) {
+    .wrap h6{
+        font-size: 12px;
+    }
+   
+    .profile-pic img {
+        margin-left: 20px;
+    }
+
+    .profile-pic h5 {
+        margin-left: -10%;
+    }
+    .profile-pic h4 {
+        margin-left: -10%;
+    }
+    #isotope-container .wrapperr p{
+        font-size: 10px;
+    }
+   
+}
